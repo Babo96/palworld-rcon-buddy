@@ -61,6 +61,7 @@ export const serverInfo = async (options: {
 
   return {
     players: playerlist,
+    playercount: playerlist.length,
     serverName,
     serverVersion,
   };
