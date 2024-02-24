@@ -10,6 +10,7 @@ export interface Player {
 export interface RconResponse {
   error?: string;
   players: Player[];
+  playercount: number,
   serverName: string;
   serverVersion: string;
 }
